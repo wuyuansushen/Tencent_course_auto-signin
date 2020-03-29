@@ -1,16 +1,21 @@
-/*let SFlower = self.setInterval(sendFlower, 30000);
+let SFlower = self.setInterval(sendFlower, 30000);
 function sendFlower()
 {
     let elements = document.getElementsByClassName("toolbar-icon");
     for(let i=0; i<elements.length; i++){
         let classElement = elements[i];
+        let flowerDate=new Date();
         if (classElement.title=="献花")
         {
             classElement.click();
-            console.log("送花成功")
+            console.log("送花成功"+flowerDate.toLocaleTimeString());
+        }
+        else
+        {
+            console.log("送花失败GG"+flowerDate.toLocaleTimeString());
         }
     }
-}*/
+}
 
 let tencentCourse=self.setInterval(signInFunction,45000)
 function signInFunction() {

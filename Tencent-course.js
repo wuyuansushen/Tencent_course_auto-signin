@@ -10,10 +10,6 @@ function sendFlower()
             classElement.click();
             console.log("送花成功"+flowerDate.toLocaleTimeString());
         }
-        else
-        {
-            console.log("送花失败GG"+flowerDate.toLocaleTimeString());
-        }
     }
 }
 

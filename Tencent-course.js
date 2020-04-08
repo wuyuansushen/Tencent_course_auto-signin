@@ -36,6 +36,6 @@ function signInFunction() {
     }
     else
     {
-        console.log("暂无签到...."+nowDate.toLocaleTimeString());
+        console.log(nowDate.toLocaleTimeString());
     }
 }

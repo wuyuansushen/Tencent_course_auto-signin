@@ -13,7 +13,7 @@ function sendFlower()
     }
 }
 
-let tencentCourse=self.setInterval(signInFunction,45000)
+let tencentCourse=self.setInterval(signInFunction,25000)
 function signInFunction() {
     /*需要等待抓签到窗体的源代码确定 类名 方法:F12打开以后，右键Copy-OuterHTML复制下来即可*/
     let signInElements=document.getElementsByClassName("s-btn s-btn--primary s-btn--m");
